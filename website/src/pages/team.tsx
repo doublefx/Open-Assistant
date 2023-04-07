@@ -12,7 +12,7 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { Github } from "lucide-react";
+import { SiGithub } from "@icons-pack/react-simple-icons";
 import Head from "next/head";
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
@@ -57,7 +57,7 @@ const Team = () => {
                               {githubURL && (
                                 <Badge ml="2" mb="0.5">
                                   <Link href={githubURL} target="_default" rel="noreferrer" title="github">
-                                    <Github size={12} />
+                                    <SiGithub size={12} />
                                   </Link>
                                 </Badge>
                               )}
